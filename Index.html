@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>Document</title>
+    <style>
+        .top-box {
+    position: absolute;
+    top: 18px;
+    left: 49.5%;
+    transform: translateX(-50%);
+    width: 700px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: transparent; /* make it fully transparent */
+    z-index: 10;
+    }
+
+    .second-box {
+  position: absolute;
+  top: 18px; /* adjust this to move it below the first */
+  left: 11%;
+  transform: translateX(-50%);
+  width: 245px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 25px;
+  background-color: transparent;
+  z-index: 10;
+}
+
+.third-box {
+  position: absolute;
+  top: 18px; /* adjust this to move it below the first */
+  left: 89%;
+  transform: translateX(-50%);
+  width: 260px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 25px;
+  background-color: transparent;
+  z-index: 10;
+}
+   .navbar {
+  position: absolute;
+  top: 23.5px;
+  left: 49.5%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 130px;
+  padding: 10px 20px;
+  background-color: transparent;
+  z-index: 100;
+}
+
+/* Common style for all links */
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: Outfit;
+  font-size: 17px;
+}
+
+/* Individual adjustments */
+.nav-about {
+  margin-right: 10px;   /* push right */
+}
+
+.nav-curriculum {
+  margin-top: 5px;       /* push down */
+}
+
+.nav-quiz {
+  transform: translateX(5px); /* move right */
+}
+
+.nav-project {
+  margin-bottom: 3px;    /* push up */
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="top-box"></div>
+    <div class="second-box"></div>
+    <div class="third-box"></div>
+    <div class="top-left-label">
+    <strong>Fundamental<br>Analysis Bootcamp</strong>
+  </div>
+
+  <div class="top-right-label">
+    <strong>Finance and Economics Club<br>IIT Guwahati</strong>
+  </div>
+   <div class="navbar">
+  <a href="#">About</a>
+  <a href="#">Curriculum</a>
+  <a href="#">Quiz</a>
+  <a href="#">Project</a>
+</div>
+<div class="vertical-line line1"></div>
+<div class="vertical-line line2"></div>
+<img src="Image1.png" class="image-one" alt="Image 1">
+<img src="Image2.png" class="image-two" alt="Image 2">
+<div class="text-block top-left">
+  <p>PAN - India<br>reach</p>
+</div>
+
+<div class="text-block top-right">
+  <p>Climbing the investment <br>staircase, one fundamental<br> at a time.</p>
+</div>
+<div class="bullet-text">
+    <p>Participants from<br>premier institutes:-</p>
+    <ul>
+      <li>IITs</li>
+      <li>IIMs</li>
+      <li>Top business schools</li>
+    </ul>
+  </div>
+<div class="highlight-text">
+    <div class="big">1500+</div>
+    <div class="small">registrations in<br>previous edition</div>
+  </div>
+
+<div class="foundation-text">
+    Builds strong<br>
+    foundation in<br>
+    equity research and<br>
+    investment analysis
+  </div>
+</body>
+</html>
