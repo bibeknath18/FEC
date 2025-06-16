@@ -1,0 +1,158 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000; /* fallback color */
+}
+
+body {
+  background: 
+    url('FEC.png') center top -25px / contain no-repeat, /* shifted up more */
+    linear-gradient(to bottom, #857AEB 0%, #F3ECF5 17%, #F2E6F6 50%, #EEDEF4 100%);
+  height: 300vh;
+  margin: 0;
+}
+
+  .top-left-label {
+    position: absolute;
+    top: 29px;
+    left: 120px;
+    background-color: transparent;
+    color: black;
+    font-family: Inter;
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .top-right-label {
+    position: absolute;
+    top: 29px;
+    right: 63px;
+    background-color: transparent;
+    color: black;
+    font-family: Inter;
+    font-size: 12px;
+    text-align: left;
+  }
+
+.vertical-line {
+  width: 1px;
+  height: 40px;
+  background-color: black;
+  position: absolute;
+}
+
+.line1 {
+  top: 24px;
+  left: 100px; /* adjust as needed */
+}
+
+.line2 {
+  top: 24px;
+  right: 235px; /* adjust as needed */
+}
+
+.image-one {
+  position: absolute;
+  top: 28px;
+  right: 254px;
+  width: 20px;
+  height: 30px;
+  z-index: 1000;
+}
+
+.image-two {
+  position: absolute;
+  top: 28px;
+  left: 57px;
+  width: 35px;
+  height: 30px;
+  z-index: 1000;
+}
+.text-block {
+  position: absolute;
+  text-align: center;
+  font-family: 'Arial', sans-serif; /* Customize as per design */
+  color: black; /* or white, based on background */
+  font-size: 1rem; /* Adjust size accordingly */
+  line-height: 1.2; /* For better vertical spacing */
+}
+
+/* Top-left position for "PAN - India reach" */
+.top-left {
+  top: 390px;
+  left: 330px;
+  font-weight:600;
+}
+
+/* Top-right position for "Climbing the investment staircase..." */
+.top-right {
+  top: 310px;
+  right: 410px;
+  max-width: 250px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2; /* Optional: limit width to wrap text */
+}
+
+.bullet-text {
+      position: absolute;
+      top: 480px;
+      right: 270px;
+      max-width: 220px;
+      font-size: 1rem;
+      line-height: 1.2;
+      text-align: left;
+      
+    }
+
+    .bullet-text p {
+      margin-bottom: 0.5rem;
+      font-weight:550;
+    }
+
+    .bullet-text ul {
+      list-style-type: disc;
+      padding-left: 20px;
+      margin: 0;
+    }
+
+    .bullet-text li {
+      margin-bottom: 0.3rem;
+      font-weight:550;
+    }
+
+
+  
+.highlight-text {
+      position: absolute;
+      top: 600px;
+      left: 270px;
+      text-align: center;
+    }
+
+    .highlight-text .big {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #6a5acd; /* Optional: purple tone like in image */
+    }
+
+    .highlight-text .small {
+      font-size: 1rem;
+      margin-top: 0.1rem;
+      font-weight:550;
+    }
+
+
+.foundation-text {
+      position: absolute;
+      top: 780px;
+      left: 720px;
+      max-width: 200px;
+      font-size: 0.95rem;
+      text-align: center;
+      line-height: 1.4;
+      font-weight:550;
+    }
